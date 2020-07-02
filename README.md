@@ -16,6 +16,7 @@ Setting up your Development environment
 - Install the Jenkins Control Plugin from the marketplace:
     File > Settings > Plugins
     https://plugins.jetbrains.com/plugin/6110-jenkins-control-plugin
+    Docs: https://github.com/mcmics/jenkins-control-plugin
     
 - Configure your plugin, go to:
     File > Settings > Tools > Jenkins Plugin
