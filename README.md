@@ -18,3 +18,7 @@ Setting up your Development environment
     
 - Right click on your Project's root folder > Mark Directory as > Sources Root
     
+    
+- Configure your shared libs Globally or at Folder level, instructions from:
+    https://www.jenkins.io/doc/book/pipeline/shared-libraries/#global-shared-libraries
+
