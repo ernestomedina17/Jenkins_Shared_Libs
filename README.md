@@ -10,6 +10,9 @@ Setting up your Development environment
 - Install Groovy From:
     https://archive.apache.org/dist/groovy/2.4.12/distribution/apache-groovy-binary-2.4.12.zip
     
+- Install the Jenkins Control Plugin from the marketplace:
+    File > Settings > Plugins
+
 - Download the GDSL as syntax.gdsl and add it to your project From:
     http://localhost:8080/job/<Any_Job_Name>/pipeline-syntax/gdsl
     
