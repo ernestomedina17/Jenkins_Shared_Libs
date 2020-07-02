@@ -12,3 +12,6 @@ Setting up your Development environment
     
 - Download the GDSL as syntax.gdsl and add it to your project From:
     http://localhost:8080/job/<Any_Job_Name>/pipeline-syntax/gdsl
+    
+- Right click on your Project's root folder > Mark Directory as > Sources Root
+    
