@@ -12,13 +12,12 @@ Setting up your Development environment
     
 - Install the Jenkins Control Plugin from the marketplace:
     File > Settings > Plugins
-
-- Download the GDSL as syntax.gdsl and add it to your project From:
-    http://localhost:8080/job/<Any_Job_Name>/pipeline-syntax/gdsl
-    
-- Right click on your Project's root folder > Mark Directory as > Sources Root
-    
-    
+       
 - Configure your shared libs Globally or at Folder level, instructions from:
     https://www.jenkins.io/doc/book/pipeline/shared-libraries/#global-shared-libraries
 
+- Download the GDSL as syntax.gdsl and add it to your project From:
+    http://localhost:8080/job/<Any_Job_Name>/pipeline-syntax/gdsl
+   
+- Right click on your Project's root folder > Mark Directory as > Sources Root
+  
