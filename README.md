@@ -32,6 +32,6 @@ Setting up your Development environment
    
 - Right click on your Project's root folder > Mark Directory as > Sources Root
   
-- In the App's repo where your Jenkinsfile exist you can use a pipeline.gsdl like this one: 
+- In the App's repo where your Jenkinsfile exist you can use a pipeline.gdsl like this one: 
     https://gist.githubusercontent.com/ggarcia24/fc5acec3288812b34c64a4f2b8f9bca9/raw/c495e6fa4c773d7b9eb92902a226cf77941fd299/pipeline.gdsl
     Note: Your Jenkinsfile needs to have the .groovy extension.    
