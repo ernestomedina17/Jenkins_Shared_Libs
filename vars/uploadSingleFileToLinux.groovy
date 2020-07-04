@@ -1,7 +1,11 @@
-
+import com.company.department.publish.SSHServer
 
 def call() {
-    sshPublisher(
+
+    def server = new SSHServer(this)
+    
+
+    /* sshPublisher(
         publishers: 
             [sshPublisherDesc(
                 configName: hostconf.getName(), 
@@ -26,5 +30,5 @@ def call() {
                         sourceFiles: 'directoryA/directoryB/config.props')], 
                 usePromotionTimestamp: false, 
                 useWorkspaceInPromotion: false, 
-                verbose: false)])
+                verbose: false)]) */
 }
