@@ -1,13 +1,6 @@
-import jenkins.plugins.publish_over_ssh.BapSshHostConfiguration
+
 
 def call() {
-    def hostconf = new BapSshHostConfiguration()
-
-    hostconf.setName('server01')
-    hostconf.setHostname('192.168.0.22')
-    hostconf.setPort(22)
-    hostconf.setTimeout(60000)
-
     sshPublisher(
         publishers: 
             [sshPublisherDesc(
