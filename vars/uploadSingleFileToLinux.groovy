@@ -2,7 +2,7 @@ import jenkins.plugins.publish_over_ssh.BapSshHostConfiguration
 
 def call() {
 
-    def server = new BapSshHostConfiguration(this)
+    def server = new BapSshHostConfiguration()
     server.setName('server01')
     server.setHostname('192.168.0.22')
     server.setPort(22)
