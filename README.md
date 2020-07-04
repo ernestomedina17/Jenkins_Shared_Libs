@@ -66,8 +66,8 @@ println bsppd.getCommonManageMessages()
 
 def hostconf = new BapSshHostConfiguration()
 
-hostconf.setName('server02')
-hostconf.setHostname('192.168.0.1')
+hostconf.setName('server01')
+hostconf.setHostname('192.168.0.22')
 hostconf.setPort(22)
 hostconf.setTimeout(60000)
 println ''
