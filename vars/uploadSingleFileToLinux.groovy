@@ -9,10 +9,10 @@ def call() {
     server.setTimeout(60000)
     
 
-    /* sshPublisher(
+    sshPublisher(
         publishers: 
             [sshPublisherDesc(
-                configName: hostconf.getName(), 
+                configName: server.getName(), 
                 sshCredentials: [
                     encryptedPassphrase: '{AQAAABAAAAAQkMeyfvLn1dSSUCd5D3xnXqdu6hxK77+YLyz5vqXV8c8=}',
                     key: '', 
@@ -34,5 +34,5 @@ def call() {
                         sourceFiles: 'directoryA/directoryB/config.props')], 
                 usePromotionTimestamp: false, 
                 useWorkspaceInPromotion: false, 
-                verbose: false)]) */
+                verbose: false)])
 }
