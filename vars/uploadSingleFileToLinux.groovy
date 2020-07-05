@@ -3,9 +3,12 @@ import jenkins.plugins.publish_over_ssh.descriptor.*
 
 def call() {
 
+    config_name = 'server01'
+    ip = '192.168.0.22'
+
     def hostconf = new BapSshHostConfiguration()
-    hostconf.setName('server01')
-    hostconf.setHostname('192.168.0.22')
+    hostconf.setName(config_name)
+    hostconf.setHostname(ip)
     hostconf.setPort(22)
     hostconf.setTimeout(60000)
 
@@ -33,6 +36,6 @@ def call() {
     } catch(Exception ex) { 
         println ex
     } finally {
-        Jenkins.instance.getDescriptorByType(BapSshPublisherDescriptor.class).getPublisherPluginDescriptor().removeHostConfiguration(hostconf.getName)
+        Jenkins.instance.getDescriptorByType(BapSshPublisherDescriptor.class).getPublisherPluginDescriptor().removeHostConfiguration(config_name)
     }
 }
