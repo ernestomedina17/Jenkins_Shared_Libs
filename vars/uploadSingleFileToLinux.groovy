@@ -33,6 +33,6 @@ def call() {
     } catch(Exception ex) { 
         println ex
     } finally {
-        Jenkins.instance.getDescriptorByType(BapSshPublisherDescriptor.class).getPublisherPluginDescriptor().removeHostConfiguration(hostconf.name)
+        Jenkins.instance.getDescriptorByType(BapSshPublisherDescriptor.class).getPublisherPluginDescriptor().removeHostConfiguration(hostconf.getName)
     }
 }
