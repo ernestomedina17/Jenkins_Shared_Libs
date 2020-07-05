@@ -18,7 +18,7 @@ def call() {
         sshPublisher(
         publishers: 
             [sshPublisherDesc(
-                configName: hostconf.name(), 
+                configName: config_name, 
                 sshCredentials: [
                     encryptedPassphrase: '{AQAAABAAAAAQkMeyfvLn1dSSUCd5D3xnXqdu6hxK77+YLyz5vqXV8c8=}',
                     key: '', keyPath: '', username: 'ernesto'], 
