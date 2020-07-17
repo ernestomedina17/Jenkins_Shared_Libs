@@ -13,7 +13,7 @@ def call() {
     hostconf.setTimeout(60000)
 
     Jenkins.instance.getDescriptorByType(BapSshPublisherDescriptor.class).getPublisherPluginDescriptor().addHostConfiguration(hostconf)
-
+    sh 'sleep 45'
     try { 
         sshPublisher(
         publishers: 
